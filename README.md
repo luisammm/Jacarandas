@@ -10,8 +10,8 @@ Project proposal for the enhancement of accuracy in navigation and mapping syste
 | HTML + CSS     | Uvicorn (server) |
 | Poppins Font   | CORS Middleware |
 
-# Colaboradores
+# Collaborators
 
-Johanna Camila Willis Ruiz
-Sara Rivera Méndez
+Johanna Camila Willis Ruiz,
+Sara Rivera Méndez, 
 Luisa Merlo García
