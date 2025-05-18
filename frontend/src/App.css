@@ -1,173 +1,89 @@
-/* app.css */
-/* === Reset === */
-* {
+/* App.css */
+
+body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-  width: 100%;
-  height: 100%;
-  background-color: #f8f9fa;
   font-family: 'Poppins', sans-serif;
-  color: #1a1a1a;
-  line-height: 1.6;
-}
-
-.page {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #f8f9fa; /* ¡Esto asegura que no haya negro! */
-}
-
-
-/* === Contenido centrado === */
-.main-content {
-  width: 100%;
-  margin: 0 auto;
-  flex: 1;
-  padding: 40px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.content-wrapper {
-  max-width: 700px;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* === Header / Logo separado === */
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 30px;
-  width: 100%;
-}
-
-h1 {
-  font-size: 42px;
+  background-color: #f4f8fb;
   color: #003b4f;
-  margin-bottom: 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 100%;
-  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  min-height: 100vh; 
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  min-height: 100vh; 
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
 
 .logo {
-  width: 70px;
-  border-radius: 12px;
-}
-
-/* === Texto === */
-h2 {
-  font-size: 28px;
-  color: #003b4f;
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
-
-h3 {
-  font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  color: #003b4f;
-}
-
-p {
-  margin-bottom: 12px;
-  font-size: 17px;
-  max-width: 100%;
-}
-
-.section-divider {
-  width: 100%;
-  height: 1px;
-  background-color: #e0e0e0;
-  margin: 20px 0;
-}
-
-/* === Enlaces === */
-a {
-  color: #0070ad;
-  font-weight: 500;
-  text-decoration: none;
-  margin-bottom: 10px;
-  display: block;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* === Botones === */
-button {
-  background-color: #00fff7;
-  color: #000;
-  padding: 12px 28px;
-  border: none;
-  border-radius: 32px;
-  font-size: 15px;
-  font-weight: bold;
-  margin: 15px 0;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  width: auto;
-  min-width: 250px;
-}
-
-button:hover {
-  background-color: #00d6cf;
-  transform: translateY(-2px);
-}
-
-/* === Grupo de botones === */
-.button-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-  margin-top: 20px;
-  width: 100%;
-}
-
-/* === Footer === */
-footer {
-  background-color: #003b4f; /* Azul oscuro */
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
-  width: 100%;
-  margin-top: auto;
-}
-
-/* === Branding arriba del propósito === */
-.top-branding {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-.top-branding .logo {
   width: 80px;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
-.top-branding h1 {
-  font-size: 36px;
-  color: #003b4f;
-  text-align: center;
-  word-wrap: break-word;
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.features {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  background-color: #e8f6f9;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+.cta {
+  margin-top: 3rem;
+}
+
+.cta button {
+  background-color: #00fff7;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.cta button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.footer {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #777;
 }
