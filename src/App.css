@@ -1,0 +1,173 @@
+/* app.css */
+/* === Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f9fa;
+  font-family: 'Poppins', sans-serif;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa; /* ¡Esto asegura que no haya negro! */
+}
+
+
+/* === Contenido centrado === */
+.main-content {
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.content-wrapper {
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* === Header / Logo separado === */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 42px;
+  color: #003b4f;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 70px;
+  border-radius: 12px;
+}
+
+/* === Texto === */
+h2 {
+  font-size: 28px;
+  color: #003b4f;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #003b4f;
+}
+
+p {
+  margin-bottom: 12px;
+  font-size: 17px;
+  max-width: 100%;
+}
+
+.section-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 20px 0;
+}
+
+/* === Enlaces === */
+a {
+  color: #0070ad;
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Botones === */
+button {
+  background-color: #00fff7;
+  color: #000;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 32px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: auto;
+  min-width: 250px;
+}
+
+button:hover {
+  background-color: #00d6cf;
+  transform: translateY(-2px);
+}
+
+/* === Grupo de botones === */
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* === Footer === */
+footer {
+  background-color: #003b4f; /* Azul oscuro */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  width: 100%;
+  margin-top: auto;
+}
+
+/* === Branding arriba del propósito === */
+.top-branding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.top-branding .logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.top-branding h1 {
+  font-size: 36px;
+  color: #003b4f;
+  text-align: center;
+  word-wrap: break-word;
+}
