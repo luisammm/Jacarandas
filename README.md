@@ -1,12 +1,17 @@
-# React + Vite
+# Guadalahacks and HERE Technologies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project proposal for the enhancement of accuracy in navigation and mapping systems. Facilitates multisystem integration and elevates user experience.
 
-Currently, two official plugins are available:
+## Technologies used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+| Frontend       | Backend        |
+|----------------|----------------|
+| React + Vite   | Python + FastAPI |
+| HTML + CSS     | Uvicorn (server) |
+| Poppins Font   | CORS Middleware |
 
-## Expanding the ESLint configuration
+# Colaboradores
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Johanna Camila Willis Ruiz
+Sara Rivera Méndez
+Luisa Merlo García
